@@ -1,8 +1,14 @@
 Config = {}
 
+Config.stock = {
+	['default_stock'] = 100
+}
+
+Config.Managefuel = true -- enable disable managefuel, disable if you only want gas station function
+
 -- What should the price of jerry cans be?
-Config.JerryCanCost = 100
-Config.RefillCost = 50 -- If it is missing half of it capacity, this amount will be divided in half, and so on.
+Config.JerryCanCost = 75
+Config.RefillCost = 3 -- If it is missing half of it capacity, this amount will be divided in half, and so on.
 
 -- Fuel decor - No need to change this, just leave it.
 Config.FuelDecor = "_FUEL_LEVEL"
